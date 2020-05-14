@@ -7,7 +7,11 @@
 body {
     background-color: black;
     font-family: 'Ubuntu Mono', monospace;
-    color:green;
+    color:#00ff00;
     text-align: center;
+}
+
+h1 {
+    padding-top: 5rem;
 }
 

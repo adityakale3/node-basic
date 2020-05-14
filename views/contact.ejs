@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link type="text/css" rel="stylesheet" href="../style.css"/>
+</head>
+<body>
+    <h1>Form</h1>
+        <form method="post" action="/contact" id="contact-form">
+            <input type="text" placeholder="Name" name="name" value="<%= qs.name %>"><br>
+            <input type="email" placeholder="Email" name="email" value="<%= qs.email %>"><br>            
+            <input type="submit" value="Submit" name="submit">
+        </form>
+</body>
+</html>
